@@ -1,7 +1,6 @@
 
 const products = []
 
-
 exports.getAddProductPage = (req, res) => {
     res.render('add-product',{ // returning a view
         pageTitle: "Add Product",
